@@ -61,6 +61,43 @@
           <button class="hero-section-button" type="button">
             Order Service
           </button>
+
+          <div class="modal-overlay">
+            <div class="modal">
+              <div class="close-icon">
+                <svg class=" icon-close-black-18dp-2-1"><use xlink:href="#icon-close-black-18dp-2-1"></use></svg>
+              </div>
+              <p class="modal-title">Leave your contacts and we will call you back</p>
+              <div class="modal-content">
+                <label for="user_name" class="modal-label">
+                 <p class="input-title"> Name </p>
+                  <input type="text" name="user_name" class="modal-input">
+                </label>
+  
+                <label for="phone" class="modal-label">
+                  <p class="input-title"> Phone</p> 
+                  <input type="tel" name="user_phone" class="modal-input">
+                </label>
+  
+                <label for="email" class="modal-label">
+                  <p class="input-title">Email </p>
+                  <input type="email" name="user_email" class="modal-input">
+                </label>
+                
+                <label for="textarea"  class="modal-label">
+                 <p class="input-title"> Comment</p>
+                  <textarea name="comment-area" class="modal-textarea" placeholder="Text input"></textarea>
+                </label>
+  
+                <label for="checkbox" class="checkbox-label">
+                  <input type="checkbox" class="checkbox">
+                  <p class="checkbox-text">I accept the terms and conditions of the <span>Privacy Policy</span></p>
+                </label>
+
+                <button class="modal-btn" type="submit">Send</button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -509,6 +546,20 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <div class="footer-input-container">
+          <p class="socials-text">Subscribe</p>
+          <div class="footer-input-content">
+            <label class="footer-input-label" for="email">
+              <input class="footer-input" type="email" name="user_email" placeholder="E-mail">
+            </label>
+              <button class="footer-btn" type="submit">
+                Subscribe
+              </button>
+            </div>
+
+          </div>
         </div>
       </div>
     </footer>
