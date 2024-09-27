@@ -723,7 +723,7 @@ address {
   border-color: #4d5ae5;
 }
 
-.checkbox-label {
+.checkbox-container {
   margin-bottom: 24px;
 }
 
@@ -748,12 +748,14 @@ address {
   fill: transparent;
 }
 
-.modal-checkbox:checked .label-span{
+.checkbox-container input:checked + label .label-span{
   background-color: #404bbf;
   border: none;
-  fill: #F4F4FD;
 }
 
+.checkbox-container input:checked + label .label-span .checkbox-icon {
+  fill: #F4F4FD;
+}
 .privacy-policy{
   color: #4d5ae5;;
 }
