@@ -753,7 +753,7 @@ address {
   border: none;
 }
 
-.checkbox-container .modal-checkbox:checked .checkbox-icon {
+.modal-checkbox:checked .label-span {
   fill: #F4F4FD;
 }
 
