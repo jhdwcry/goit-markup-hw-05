@@ -752,8 +752,31 @@ address {
   fill: transparent;
 }
 
-.checkbox-label:checked {
+.modal-checkbox:checked .label-span{
   background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
 }
 
-/* checkbox */
+.privacy-policy{
+  color: #4d5ae5;;
+}
+
+.modal-btn{
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: rgba(0,0,0,0.1);
+}
